@@ -32,7 +32,9 @@
         android:id="@+id/button_start_quiz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button" />
+        android:text="@string/button"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/spinner_category"
@@ -47,5 +49,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
         android:background="@color/teal_700" />
+
+    <Button
+        android:id="@+id/aboutbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:onClick="AboutFunction"
+        android:text="@string/about"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
 </LinearLayout>

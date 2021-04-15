@@ -4,5 +4,11 @@
     <string name="title">Smart Quiz App</string>
     <string name="score">Last Score: 0</string>
     <string name="button">Start Quiz</string>
+    <string name="about">About</string>
+    <string name="message1">Created By</string>
+    <string name="devname">Name: Rishad Amin Pulok</string>
+    <string name="devID">ID: 182-15-2117</string>
+    <string name="devsec">Section: PC-A</string>
+    <string name="reverse">Go Back</string>
 
 </resources>

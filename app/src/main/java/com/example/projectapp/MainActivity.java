@@ -108,4 +108,8 @@ public class MainActivity extends AppCompatActivity {
         editor.putInt(KEY_HIGHSCORE, lastscore);
         editor.apply();
     }
+
+    public void AboutFunction(View view) {
+        startActivity(new Intent(MainActivity.this,About.class));
+    }
 }
