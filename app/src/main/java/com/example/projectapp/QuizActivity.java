@@ -193,7 +193,6 @@ public class QuizActivity extends AppCompatActivity {
             score++;
             textViewScore.setText("Score: " + score);
         }
-
         showSolution();
     }
 
